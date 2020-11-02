@@ -1,0 +1,9 @@
+[submodule "themes/KeepIt"]
+	path = themes/KeepIt
+	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "themes/leaveit"]
+	path = themes/leaveit
+	url = https://github.com/liuzc/leaveit
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
