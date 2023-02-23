@@ -1,4 +1,6 @@
 /resources/
 .DS_Store
-/themes/
+/themes/ananke/
+/themes/PaperMod/
+/themes/LoveIt/
 /public/

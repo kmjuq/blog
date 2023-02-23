@@ -18,12 +18,12 @@ GitFlow 是最早诞生并得到广泛应用的一种版本管理工作流程
 
 - release 稳定发布的版本,对应多个 feature
     
-    仅用于版本发布,管理 feature , feature 在 develop 测试通过后合并到 release.
+    从 master 切出,管理 feature , feature 在 develop 测试通过后合并到 release.
     该 release 所有对应 feature 都测试通过后,合并到 master ,然后 feature，release 删除.
 
 - feature 功能分支
 
-    从release切出，根据需求定义 feature 分支,开发完合并到 develop 测试,测试成功后合并到 release ，并删除feature。
+    从 release 切出，根据需求定义 feature 分支,开发完合并到 develop 测试,测试成功后合并到 release ，并删除feature。
 
 - hotfix 紧急修复分支
 
@@ -39,7 +39,7 @@ master 管理 release ， release 管理 feature.
 
 ### 业务场景
 结合业务场景，让我们更好的理解 gitflow 流程分支适用性。
-让我们来假设一个场景，我们需要开发一个博客系统名为 kmjuq-blog(不好意思不要脸了).
+让我们来假设一个场景，我们需要开发一个博客系统名为 kmjuq-blog.
 产品是慢慢迭代的，因此我们给我们的 blog 系统一个迭代周期，并给每一个功能定义一个版本号（这个版本号的定义也有一些规范，这里就不细说了，具体的版本号和分支对应关系有管理方法，这里也不细说了。）
 
 1. 基础模块（1.0）
@@ -70,7 +70,7 @@ master 管理 release ， release 管理 feature.
     - 增加博客首页，给用户的公开博客分类引流（5.1）
     - web编辑模块附件在线预览（5.2）
 
-值得注意的是，这里的开发粒度特别大，模块划分不合理，正常肯定不是这样我们，正常来说，我们还得进一步划分（粒度越小，项目交付风险越低）。比如说：
+值得注意的是，这里的开发粒度特别大，模块划分不合理，正常肯定不是这样，正常来说，我们还得进一步划分（粒度越小，项目交付风险越低）。比如说：
 - 用户登录模块
     - 权限校验
     - 用户注册登录

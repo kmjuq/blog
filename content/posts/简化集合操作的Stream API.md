@@ -197,7 +197,7 @@ System.out.println(Stream
                 "Java In Action",
                 "Spring In Action"
         )
-        .allMatch(s -> s.endsWith("Action"))); // 输出结果 --> true
+        .anyMatch(s -> s.startsWith("Java"))); // 输出结果 --> true
 ```
 ##### allMatch
 检查数据源全部元素是否全部匹配
@@ -207,7 +207,7 @@ System.out.println(Stream
                 "Java In Action",
                 "Spring In Action"
         )
-        .anyMatch(s -> s.startsWith("Java"))); // 输出结果 --> true
+        .allMatch(s -> s.endsWith("Action"))); // 输出结果 --> true
 ```
 ##### noneMatch
 检查数据源全部元素是否都全没有匹配
