@@ -1,0 +1,4 @@
+@startuml
+:词法分析;
+:语义分析;
+@enduml

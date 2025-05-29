@@ -49,6 +49,7 @@ services:
       - service_name:ro
       - container:container_name
       - container:container_name:rw
+    # 依赖其他服务，当compose当中定义了多个服务时
     depends_on:
       - db
       - cache
