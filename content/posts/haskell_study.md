@@ -412,17 +412,16 @@ Level "2" "4" "3"
 ghci> 
 ```
 
-
-
 ### 派生(deriving)
 
 ### IO Action
 
 #### Exception
 
-
 ## 函数式思想
+### 纯函数与副作用
 ### 柯里化
+### 函数组合
 ### fold
 ### functor
 functor 是一个类型分类，专门用来转换类型构造子内部的类型的，典型的比如 `Maybe`
