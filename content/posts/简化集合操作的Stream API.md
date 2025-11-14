@@ -2,6 +2,7 @@
 title: "简化集合操作的Stream API"
 date: 2020-11-03T06:11:09+08:00
 draft: true
+tags: ["java"]
 ---
 ## 什么是流
 流是一种支持以声明方式来处理数据的 `Java API`

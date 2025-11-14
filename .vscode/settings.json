@@ -1,0 +1,13 @@
+{
+  "plantuml.exportOutDir": "static/pu/images",
+  "plantuml.diagramsRoot": "static/pu/dsl",
+  "plantuml.exportIncludeFolderHeirarchy": false,
+
+  // 可选：禁用 Go 插件的特定特定功能（如格式化、lint）
+  // 禁用 Go 语言服务器（影响代码提示的核心）
+  "go.useLanguageServer": false,
+  // 禁用保存时的 lint 检查
+  "go.lintOnSave": "off",
+
+  "markdown-image.local.path": "/static/images"
+}

@@ -1,0 +1,4 @@
+{
+  // 推荐安装的插件（通过插件 ID 指定，可在插件详情页获取）
+  "recommendations": ["jebbs.plantuml", "hancel.markdown-image"]
+}

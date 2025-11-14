@@ -1,4 +1,11 @@
-# docker-compose日常使用
+---
+title: "docker-compose日常使用"
+date: 2025-10-22T09:14:47+08:00
+draft: true
+tags: ["docker"]
+---
+
+
 ## docker-compose 命令
 ### 添加docker执行的环境变量
 `docker-compose --env-file ./config/.env.dev up`
