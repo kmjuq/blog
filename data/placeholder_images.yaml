@@ -1,0 +1,22 @@
+# 功能启用开关
+enabled: false
+
+# 图片URL列表（支持外部URL和本地路径）
+images:
+  # Picsum Photos
+  - "https://picsum.photos/seed/cat/800/600?random=1"
+  - "https://picsum.photos/seed/cat/800/600?random=2"
+  - "https://picsum.photos/seed/cat/800/600?random=3"
+  - "https://picsum.photos/seed/cat/800/600?random=4"
+  - "https://picsum.photos/seed/cat/800/600?random=5"
+  - "https://picsum.photos/seed/cat/800/600?random=6"
+  - "https://picsum.photos/seed/cat/800/600?random=7"
+  - "https://picsum.photos/seed/cat/800/600?random=8"
+  - "https://picsum.photos/seed/cat/800/600?random=9"
+  - "https://picsum.photos/seed/cat/800/600?random=10"
+  - "https://picsum.photos/seed/cat/800/600?random=11"
+  - "https://picsum.photos/seed/cat/800/600?random=12"
+  - "https://picsum.photos/seed/cat/800/600?random=13"
+  - "https://picsum.photos/seed/cat/800/600?random=14"
+  # local images
+  # - "/images/placeholder/1.jpg"

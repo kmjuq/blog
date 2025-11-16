@@ -1,7 +1,9 @@
 ---
 title: "Vim"
 date: 2023-11-09T21:31:23+08:00
-draft: true
+categories: ["兴趣爱好","编辑器"]
+tags: ["VIM"]
+description: "学习VIM的使用"
 ---
 
 ## 约定

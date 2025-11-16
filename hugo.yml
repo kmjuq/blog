@@ -1,4 +1,114 @@
 baseURL: "http://example.org/"
-languageCode: "en-us"
-title: "My New Hugo Site"
+# 站点名称
+title: "可梦见"
+# 主题
 theme: "hugo-narrow"
+# 默认语言代码，用于搜索引擎索引语言
+languageCode: 'zh-CN'         
+# 默认内容语言，决定站点显示语言   
+defaultContentLanguage: 'zh-cn'   
+# 默认语言是否使用子目录
+defaultContentLanguageInSubdir: false  
+# 时区设置
+timeZone: 'Asia/Shanghai'        # 时区设置
+
+# 内容处理配置
+hasCJKLanguage: true   # 是否包含中日韩文字
+enableEmoji: true      # 启用 emoji 支持
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - name: nav.posts      # 显示名称
+      pageRef: /posts      # 页面引用
+      weight: 20          # 排序权重
+      params:
+        icon: posts       # 图标名称
+
+    - name: nav.categories
+      pageRef: /categories
+      weight: 30
+      params:
+        icon: categories
+
+    - name: nav.tags
+      pageRef: /tags
+      weight: 40
+      params:
+        icon: tags
+
+    - name: nav.archives
+      pageRef: /archives
+      weight: 50
+      params:
+        icon: archive
+  footer:
+    - name: About
+      pageRef: /about
+      weight: 10
+      params:
+        icon: about
+
+    - name: RSS Feed
+      url: /index.xml
+      weight: 30
+      params:
+        icon: rss
+
+  social:
+    - name: GitHub
+      url: https://github.com/username
+      weight: 10
+      params:
+        icon: github
+
+    - name: bilibili
+      url: https://space.bilibili.com/7703722
+      weight: 10
+      params:
+        icon: bilibili
+
+    - name: Email
+      url: mailto:kemengjian@126.com
+      weight: 40
+      params:
+        icon: email
+
+languages:
+  # en:
+  #   languageCode: en-US
+  #   languageName: "English"
+  #   weight: 1
+  zh-cn:
+    languageCode: zh-CN
+    languageName: "简体中文"
+    weight: 2
+
+params:
+  showLanguageSwitch: false
+  post:
+    license:
+      show: false
+
+  # 站点信息 用于 SEO
+  description: "可梦见的个人博客"  # 网站描述，用于 SEO
+  keywords: ["博客"]  # 网站关键词
+  defaultAuthor: "可梦见" # 作者
+  language: "zh-CN"
+  shortName: "可梦见的个人博客"  # PWA
+
+  logo:
+    image: "/images/logo.svg"  # 静态目录相对路径, 留空使用站点标题首字母并适配主题配色
+    link: "/"                  # 点击访问站点主页
+
+  favicon:
+    svg: "/favicon.svg"        # SVG 格式 favicon
+  
+  images: 
+    - "/images/og-default.avif"  # 默认 Open Graph 图片
+
+

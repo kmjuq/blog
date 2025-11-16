@@ -3,4 +3,4 @@ default:
 
 # 本地预览启动
 dev:
-    hugo server --cleanDestinationDir
+    hugo server --cleanDestinationDir -D --disableFastRender
