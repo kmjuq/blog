@@ -4,17 +4,17 @@ title: "可梦见"
 # 主题
 theme: "hugo-narrow"
 # 默认语言代码，用于搜索引擎索引语言
-languageCode: 'zh-CN'         
-# 默认内容语言，决定站点显示语言   
-defaultContentLanguage: 'zh-cn'   
+languageCode: "zh-CN"
+# 默认内容语言，决定站点显示语言
+defaultContentLanguage: "zh-cn"
 # 默认语言是否使用子目录
-defaultContentLanguageInSubdir: false  
+defaultContentLanguageInSubdir: false
 # 时区设置
-timeZone: 'Asia/Shanghai'        # 时区设置
+timeZone: "Asia/Shanghai" # 时区设置
 
 # 内容处理配置
-hasCJKLanguage: true   # 是否包含中日韩文字
-enableEmoji: true      # 启用 emoji 支持
+hasCJKLanguage: true # 是否包含中日韩文字
+enableEmoji: true # 启用 emoji 支持
 
 markup:
   goldmark:
@@ -23,11 +23,11 @@ markup:
 
 menus:
   main:
-    - name: nav.posts      # 显示名称
-      pageRef: /posts      # 页面引用
-      weight: 20          # 排序权重
+    - name: nav.posts # 显示名称
+      pageRef: /posts # 页面引用
+      weight: 20 # 排序权重
       params:
-        icon: posts       # 图标名称
+        icon: posts # 图标名称
 
     - name: nav.categories
       pageRef: /categories
@@ -89,26 +89,62 @@ languages:
     weight: 2
 
 params:
+  toc:
+    enabled: true
   showLanguageSwitch: false
   post:
     license:
       show: false
 
   # 站点信息 用于 SEO
-  description: "可梦见的个人博客"  # 网站描述，用于 SEO
-  keywords: ["博客"]  # 网站关键词
+  description: "可梦见的个人博客" # 网站描述，用于 SEO
+  keywords: ["博客"] # 网站关键词
   defaultAuthor: "可梦见" # 作者
   language: "zh-CN"
-  shortName: "可梦见的个人博客"  # PWA
+  shortName: "可梦见的个人博客" # PWA
 
   logo:
-    image: "/images/logo.svg"  # 静态目录相对路径, 留空使用站点标题首字母并适配主题配色
-    link: "/"                  # 点击访问站点主页
+    image: "/images/logo.svg" # 静态目录相对路径, 留空使用站点标题首字母并适配主题配色
+    link: "/" # 点击访问站点主页
 
   favicon:
-    svg: "/favicon.svg"        # SVG 格式 favicon
-  
-  images: 
-    - "/images/og-default.avif"  # 默认 Open Graph 图片
+    svg: "/favicon.svg" # SVG 格式 favicon
 
+  images:
+    - "/images/og-default.avif" # 默认 Open Graph 图片
 
+  colorScheme: "default"
+  themes:
+    default:
+      name: "Default"
+      order: 1
+    claude:
+      name: "Claude"
+      order: 2
+    bumblebee:
+      name: "Bumblebee"
+      order: 3
+    emerald:
+      name: "Emerald"
+      order: 4
+    nord:
+      name: "Nord"
+      order: 5
+    sunset:
+      name: "Sunset"
+      order: 6
+    abyss:
+      name: "Abyss"
+      order: 7
+    dracula:
+      name: "Dracula"
+      order: 8
+    amethyst:
+      name: "Amethyst"
+      order: 9
+    slate:
+      name: "Slate"
+      order: 10
+    twitter:
+      name: "Twitter"
+      order: 11
