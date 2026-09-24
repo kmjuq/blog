@@ -1,13 +1,33 @@
 ---
-title: "Agent"
+title: "Agent 技术脉络"
 date: 2025-10-22T09:14:47+08:00
 draft: true
 tags: ["大模型"]
 ---
 
-## AI 工具
+## Agent 技术脉络
+### 模型接入
+### context
+#### Memory
+#### Skill
+#### RAG
+### Tools
+#### Hosted tools
+#### Function calling
+#### MCP
+openai 的 sdk 支持直接定义 MCP Server 数据。而不用在 Agent 中定义 MCP Client。
+如果产品部署在公网上，又想访问内网的 MCP Server ，openai 有一套Secure MCP Tunnel 标准，可了解。
+### 运行时与编排
+#### loop
+#### schedule
+### 工程
+#### 执行隔离：Sandbox
+#### 状态与恢复：Checkpoint
+#### 人机协同：HITL
+#### 可观测性：Observability
+#### 评估：Evaluation
+#### 安全与合规：Guardrails
 
-### Funcation Calling
 
 
 
